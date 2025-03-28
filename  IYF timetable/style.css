@@ -1,0 +1,27 @@
+body {
+    font-family: sans-serif;
+  }
+  
+  table {
+    border-collapse: collapse;
+    width: 100%;
+    table-layout: fixed;
+  }
+  
+  th {
+    width: auto;
+    font-weight: 900;
+  }
+  
+  td {
+    padding: 5px;
+    text-align: center;
+    word-wrap: break-word;
+  }
+  
+  .vertical {
+    writing-mode: vertical-rl;
+    text-orientation: upright;
+    white-space: nowrap;
+    overflow: visible;
+  }
